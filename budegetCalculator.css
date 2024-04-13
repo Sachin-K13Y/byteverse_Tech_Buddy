@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 32vw;
+    height: 54vh;
+    margin: 5vw 2vw;
+    background-color: rgb(0, 17, 255);
+    border-radius: 1vw;
+
+}
+.left2{
+    width: 34vw;
+}
+.left1{
+    width: 32vw;
+    height: 25vh;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    background-color: rgb(0, 17, 255);
+    border-radius: 1vw;
+
+}
+.left h1{
+    padding: 3vw 7vw;
+}
+.left1 h1{
+    padding: 1.3vw 11vw;
+}
+#remark,#date{
+    margin: 1vw 10vw;
+    padding: .4vw;
+    border-radius: .4vw;
+}
+#amount{
+    padding: .4vw;
+    border-radius: .4vw;
+}
+#amount1{
+    padding: .4vw;
+    border-radius: .4vw;
+    margin-left: 9vw;
+}
+.toggle{
+    margin-left: 7.8vw;
+    margin-bottom: 1vw;
+    font-size: larger;border-radius: .4vw;
+    width: 2vw;
+
+}
+.add{
+    margin: 1.3vw 9.4vw;
+    border: 2px solid black;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 3vw;
+    background-color: red;
+    font-size: 1vw;
+    font-weight: 800;
+}
+.add{
+    margin: 1.3vw 9.4vw;
+    border: 2px solid black;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 3vw;
+    background-color: red;
+    font-size: 1vw;
+    font-weight: 800;
+}
+.main{
+    display: flex;
+}
+.left2{
+    position: fixed;
+}
+.right{
+    width: 67vw;
+    background-color: aqua;
+    margin-left: 35vw;
+    margin-top: 2vw;
+    border-radius: 2VW;
+    min-height: 88vh;
+}
+.right h2{
+    text-align: center;
+   margin: 1vw 20vw;
+    font-size: xx-large;
+    border-radius: 2vw;
+    border: 2px solid black;
+    padding: .4vw;
+}
+table{
+    font-size: 1.6vw;
+    margin-top: 2vw;
+    margin-left: 1.7vw;
+}
+table tr{
+    margin:4vw 0px;
+    background-color: red;
+}
+table tr th{
+    width: 20vw;
+    padding-top: 1vw;
+    border-radius: 1vw;
+}
+table td{
+    text-align: center;
+   padding-top: 1vw;
+   border-radius: 1vw;
+}
+.footer{
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    font-size: 1.3vw;
+    padding: 1vw 9vw;
+    border-radius: 3vw;
+    margin: 0px 2vw;
+}
