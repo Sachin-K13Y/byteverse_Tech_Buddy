@@ -100,3 +100,114 @@ nav{
     margin: 0px 0px 0px 3vw;
     font-size: 1.2vw;
 }
+.page-2{
+    width: 100%;
+    height: 100vh;
+}
+.page-2 h2{
+    color: #FF735C;
+    padding: 1vw 2vw;
+    font-size: 2.5vw;
+}
+.page-2 p{
+    padding: 0vw 2vw;
+}
+.page-2 button{
+    padding: 1vw 3vw;
+    margin:0vh 0vh 10vh 2vw ;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    border: 2px solid #fe6a53;
+    background-color: #FF735C;
+    color: white;
+    box-shadow: -10px 5px 5px #00000081;
+}
+.page-2 button:hover{
+    transform: scale(1.1);
+}
+.card-container{
+    display: flex;
+    height: 50vh;
+    gap: 1vw;
+    padding: 3vw 2vw;
+}
+.card{
+    height: 100%;
+    width: 23vw;
+    position: relative;
+    border-radius: .3vw;
+    overflow: hidden;
+}
+.card video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card:hover img{
+    opacity: 0;
+}
+.finance-box {
+    display: flex;
+    align-items: center;
+}
+.finance-box img{
+    height: 40vh;
+    width: 28vw;
+    margin-left: 5vw;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color:  #FF735C;
+}
+footer{
+    height: 80vh;
+    background-color: #FF735C;
+    padding: 4vh 2vw 10vh 2vw;
+    display: flex;
+    gap: 1vw;
+}
+.footer{
+    height: 50vh;
+    width: 32vw;
+    gap: 1vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+.footer h2{
+    color: black;
+}
+.footer a{
+    text-align: center;
+    justify-self: center;
+    padding: 1vw 1vw;
+    background-color: white;
+    border-radius: .6vw;
+    width: 18vw;
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover img{
+    transform: scale(1.1);
+}
+.footer-3 {
+    height: 50vh;
+    width: 32vw;
+    gap: 1vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+
+}
+.footer-3 h2{
+    color: black;
+}
