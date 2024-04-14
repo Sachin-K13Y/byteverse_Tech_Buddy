@@ -29,7 +29,11 @@ nav{
 .nav-right{
     display: flex;
     align-items: center;
-    gap: 7vw;
+    gap: 3vw;
+    list-style-type: none;
+}
+.nav-right ul{
+ list-style-type: none;
 }
 .nav-right a{
     text-decoration: none;
@@ -37,9 +41,40 @@ nav{
     font-size: 1.2vw;
     align-self: center;
     font-weight: 600;
+    position: relative;
+    
 }
-.nav-right a:hover{
-    transform: scale(1.1);
+.nav-right  li{
+    position: relative;
+    margin-top: .7vw;
+    padding: .3vw 1vw;
+    width: 8vw;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+.nav-right li:hover {
+    background-color: #FF735C;
+    border: 1px solid black;
+    border-radius: .7vw;
+    transform: scale(1.03);
+}
+.nav-right li:hover a{
+    transform: scale(1.03);
+}
+.submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+li:hover ul.submenu{
+    opacity: 1;
+    visibility: visible;
+}
+.submenu li{
+    padding: .4VW 0VW .2VW 0PX;
 }
 .nav-right-ss{
     display: flex;

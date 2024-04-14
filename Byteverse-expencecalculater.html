@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="Byteverse-expencecalculater.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left2">
+        <div class="left1">
+            <h1>Set Limit</h1>
+            <input type="number" id="amount1" placeholder="Enter Amount in ₹ ">
+            <br>
+            <button class="addd" type="submit">Set</button>
+
+        </div>
+        <div class="left">
+            <h1>Budget Calculator</h1>
+
+            <button class="toggle">+</button>
+            <input type="number" id="amount" placeholder="Enter Amount in ₹ ">
+
+            <input type="text" id="remark" placeholder="Remark">
+            <br>
+            <input id="date" type="date">
+            <br>
+            <button class="add" type="submit">Add</button>
+        </div>
+    </div>
+        <div class="right">
+            <h2>Transaction Details</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Remark</th>
+                    <th>Amount</th>
+                </tr>
+            </table>
+            <div class="footer">
+                <h3>Total</h3>
+                <h3 class="total">0</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Byteverse-expencecalculater.js"></script>
+</body>
+
+</html>
